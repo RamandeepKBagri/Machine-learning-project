@@ -106,7 +106,7 @@ finalDf.head(5)
 
 
 # Visualize 2D Projection
-# Use a PCA projection to 2d to visualize the entire data set. You should plot different classes using different colors or shapes. Do the classes seem well-separated from each other? 
+# Use a PCA projection to 2d to visualize the entire data set. 
 
 fig = plt.figure(figsize = (8,8))
 ax = fig.add_subplot(1,1,1) 
@@ -136,8 +136,6 @@ principalDf.head(5)
 # In[30]:
 
 
-# The three classes appear to be well separated! 
-# iris-virginica and iris-versicolor could be better separated, but okay
 # Explained Variance
 # The explained variance tells us how much information (variance) can be attributed to each of the principal components.
 
